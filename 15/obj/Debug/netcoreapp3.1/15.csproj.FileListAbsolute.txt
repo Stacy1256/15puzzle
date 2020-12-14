@@ -1,0 +1,38 @@
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\15.csprojAssemblyReference.cache
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\15_MarkupCompile.cache
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\15_MarkupCompile.lref
+C:\Users\BOBER\source\repos\15\15\bin\Debug\netcoreapp3.1\15.exe
+C:\Users\BOBER\source\repos\15\15\bin\Debug\netcoreapp3.1\15.deps.json
+C:\Users\BOBER\source\repos\15\15\bin\Debug\netcoreapp3.1\15.runtimeconfig.json
+C:\Users\BOBER\source\repos\15\15\bin\Debug\netcoreapp3.1\15.runtimeconfig.dev.json
+C:\Users\BOBER\source\repos\15\15\bin\Debug\netcoreapp3.1\15.dll
+C:\Users\BOBER\source\repos\15\15\bin\Debug\netcoreapp3.1\15.pdb
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\15.g.resources
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\15.AssemblyInfoInputs.cache
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\15.AssemblyInfo.cs
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\15.csproj.CoreCompileInputs.cache
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\15.dll
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\15.pdb
+C:\Users\BOBER\source\repos\15\15\obj\Debug\netcoreapp3.1\15.genruntimeconfig.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\15.exe
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\15.deps.json
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\15.runtimeconfig.json
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\15.runtimeconfig.dev.json
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\15.dll
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\15.pdb
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\15.csprojAssemblyReference.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\15_MarkupCompile.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\15_MarkupCompile.lref
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\15.g.resources
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\15.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\15.AssemblyInfo.cs
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\15.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\15.dll
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\15.pdb
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\15.genruntimeconfig.cache

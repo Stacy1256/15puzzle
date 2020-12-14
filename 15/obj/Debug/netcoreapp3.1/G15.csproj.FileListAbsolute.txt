@@ -1,0 +1,42 @@
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\G15.csprojAssemblyReference.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\G15_MarkupCompile.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\G15_MarkupCompile.lref
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\G15.exe
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\G15.deps.json
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\G15.runtimeconfig.json
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\G15.runtimeconfig.dev.json
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\G15.dll
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\bin\Debug\netcoreapp3.1\G15.pdb
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\G15.g.resources
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\G15.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\G15.AssemblyInfo.cs
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\G15.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\G15.dll
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\G15.pdb
+C:\Users\Lenovo\Downloads\Telegram Desktop\15\15\15\obj\Debug\netcoreapp3.1\G15.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15_MarkupCompile.cache
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15_MarkupCompile.lref
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.dll
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.pdb
+C:\Users\Lenovo\Desktop\15\15\bin\Debug\netcoreapp3.1\G15.exe
+C:\Users\Lenovo\Desktop\15\15\bin\Debug\netcoreapp3.1\G15.deps.json
+C:\Users\Lenovo\Desktop\15\15\bin\Debug\netcoreapp3.1\G15.runtimeconfig.json
+C:\Users\Lenovo\Desktop\15\15\bin\Debug\netcoreapp3.1\G15.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\15\15\bin\Debug\netcoreapp3.1\G15.dll
+C:\Users\Lenovo\Desktop\15\15\bin\Debug\netcoreapp3.1\G15.pdb
+C:\Users\Lenovo\Desktop\15\15\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.g.resources
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\About.g.cs
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\About.baml
