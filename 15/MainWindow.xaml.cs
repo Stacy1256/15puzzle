@@ -17,6 +17,11 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using System.Configuration;
+//Sql staff
+using System.Data.SqlClient;
+using System.Data.SqlTypes;
+using System.Data;
 
 namespace _15
 {
@@ -25,10 +30,20 @@ namespace _15
     ///базу даних
     ///інсталяція
     ///розділ «Допомога»
-   
+
+    
 
     public partial class MainWindow : Window
     {
+        //DB
+        string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+        //DataDisplayded dataDisplayded;
+        DataTable dataTable { get; set; }
+        //DataGrid DG = new DataGrid();
+
+
+
+
         Game myGame;
         DispatcherTimer dt = new DispatcherTimer();
         Stopwatch sw = new Stopwatch();
@@ -80,8 +95,9 @@ namespace _15
             if (myGame.checkToEndGame())
             {
                 sw.Stop();
-
-                MessageBox.Show("You Win!", $"15Puzzle and make {moves}/n yor time: {clocktxtblock.Text} ");
+                WinWindow koko = new WinWindow();
+                koko.Show();
+                MessageBox.Show("You Win!", $"15Puzzle and make {moves} your time: {clocktxtblock.Text} ");
                //TimeSpan endOfGame = DateTime.Now - StartTime;
                 
 
@@ -288,8 +304,7 @@ namespace _15
 
         private void help_Click(object sender, RoutedEventArgs e)
         {
-            About wimdw = new About();
-            wimdw.Show();
+            
         }
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)

@@ -38,5 +38,6 @@ C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.AssemblyInfo.cs
 C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.csproj.CopyComplete
 C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\G15.genruntimeconfig.cache
-C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\About.g.cs
-C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\About.baml
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\WinWindow.g.cs
+C:\Users\Lenovo\Desktop\15\15\obj\Debug\netcoreapp3.1\WinWindow.baml
+C:\Users\Lenovo\Desktop\15\15\bin\Debug\netcoreapp3.1\G15.dll.config

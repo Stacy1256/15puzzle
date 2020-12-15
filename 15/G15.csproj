@@ -8,9 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="15ico.PNG" />
+    <None Remove="IMG_20200925_090814.jpg" />
+    <None Remove="me.PNG" />
     <None Remove="puzzle-piece.png" />
-    <None Remove="star.png" />
+    <None Remove="WinImage.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,9 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="15ico.PNG" />
     <Resource Include="puzzle-piece.png" />
-    <Resource Include="star.png" />
+    <Resource Include="WinImage.jpg" />
   </ItemGroup>
 
 </Project>
