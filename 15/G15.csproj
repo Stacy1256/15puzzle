@@ -9,9 +9,11 @@
 
   <ItemGroup>
     <None Remove="IMG_20200925_090814.jpg" />
+    <None Remove="me.jpg" />
     <None Remove="me.PNG" />
     <None Remove="puzzle-piece.png" />
     <None Remove="WinImage.jpg" />
+    <None Remove="Пятнашки.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,8 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="me.jpg" />
     <Resource Include="puzzle-piece.png" />
     <Resource Include="WinImage.jpg" />
+    <Resource Include="Пятнашки.jpg" />
   </ItemGroup>
 
 </Project>

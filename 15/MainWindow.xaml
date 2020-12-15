@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_15"
         mc:Ignorable="d"
-        Title="15" Height="700" Width="600" WindowStartupLocation="CenterScreen" Icon="/puzzle-piece.png">
+        Title="15" Height="727" Width="600" WindowStartupLocation="CenterScreen" Icon="/puzzle-piece.png">
     <Window.Style>
         <Style/>
     </Window.Style>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="1.3*"/>
-            <RowDefinition Height="9*"/>
+            <RowDefinition Height="86*"/>
+            <RowDefinition Height="297*"/>
+            <RowDefinition Height="300*"/>
         </Grid.RowDefinitions>
 
         <Grid x:Name="menuGrid" Grid.Column="0">
@@ -40,11 +41,10 @@
                     </LinearGradientBrush>
                 </Menu.Background>
                 <MenuItem Header="MENU" Height="39" Width="83" Click="MenuItem_Click_1">
-                    <MenuItem x:Name="open" Header="Open New Image" Click="open_Click_1" />
-                    <MenuItem x:Name="sttggs" Header="Settings" />
-                    <MenuItem x:Name="help"  Header="Help" Click="help_Click" />
-                    <MenuItem x:Name="about" Header="About Game" />
-                    <MenuItem x:Name="exit" Header="Exit" />
+                    <MenuItem x:Name="open" Header="OPEN NEW IMAGE" Click="open_Click_1" />
+                    <MenuItem x:Name="help"  Header="HELP" Click="help_Click" />
+                    <MenuItem x:Name="about" Header="ABOUT AUTHOR" Click="about_Click" />
+                    <MenuItem x:Name="exit" Header="EXIT" Click="exit_Click" />
                 </MenuItem>
 
                 <MenuItem Header="NEW GAME" Click="MenuItem_Click" ></MenuItem>
@@ -85,8 +85,8 @@
             </TextBlock>
 
         </Grid>
-        <Grid x:Name="Grid15" HorizontalAlignment="Center" Width="600" Grid.Row="1">
-            
+        <Grid x:Name="Grid15" HorizontalAlignment="Center" Width="600" Margin="0,86,0,0" Grid.RowSpan="3">
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>

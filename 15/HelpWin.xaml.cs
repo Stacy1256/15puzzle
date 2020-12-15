@@ -13,19 +13,23 @@ using System.Windows.Shapes;
 namespace _15
 {
     /// <summary>
-    /// Interaction logic for WinWindow.xaml
+    /// Interaction logic for HelpWin.xaml
     /// </summary>
-    public partial class WinWindow : Window
+    public partial class HelpWin : Window
     {
-       // string contT=moves.ToString();
-        public WinWindow()
+        public HelpWin()
         {
             InitializeComponent();
         }
 
-        private void Resultst_DataContextChanged(object sender, DependencyPropertyChangedEventArgs e)
+        private void CloceBttn_Click(object sender, RoutedEventArgs e)
         {
-            //Resultst.Text= cw.To
+            Close();
+        }
+
+        private void Hyperlink_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

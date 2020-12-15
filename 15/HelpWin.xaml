@@ -1,0 +1,27 @@
+﻿<Window x:Class="_15.HelpWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_15"
+        mc:Ignorable="d"
+        Title="HelpWin" Height="376" Width="634" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="194*"></ColumnDefinition>
+            <ColumnDefinition Width="150*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="Pzz15" Source="/Пятнашки.jpg" Margin="29,0,30,0">
+        </Image>
+        <TextBlock TextWrapping="Wrap" Foreground="White" FontSize="17" Grid.Column="1" FontFamily="Cambria Math" Height="334" VerticalAlignment="Top" FontWeight="Bold">Fifteen is a popular puzzle invented in 1878 by Noah Chapman.It consists of 15 identical square plates with numbers from 1 to 15. The plates are placed in a square box, the side length of which is four times the length of the side of the plates, respectively, in the box remains empty one square field.The aim of the game is to move the plates around the box to arrange them by numbers (as shown in the figure),preferably by making as few movements as possible.<Hyperlink NavigateUri="https://en.wikipedia.org/wiki/15_puzzle" Click="Hyperlink_Click"> (Wikipedia)</Hyperlink>
+        </TextBlock>
+        <Button x:Name="CloceBttn" Content="Cloce"  Foreground="#FF5C5C5C" FontSize="17" Grid.Column="1" FontFamily="Cambria Math" Width="60" Height="30" Margin="108,292,108,12" Click="CloceBttn_Click"></Button>
+    </Grid>
+</Window>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_15"
         mc:Ignorable="d"
-        Title="WinWindow" Height="450" Width="768">
+        Title="WinWindow" Height="450" Width="768" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="4*"></RowDefinition>
@@ -21,7 +21,7 @@
         <Image Source="/WinImage.jpg" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
         <TextBlock Name="ResultsT" Grid.Row="1" Grid.Column="0" Foreground="White" Text="TIME: " FontSize="30" TextAlignment="Right" FontWeight="Bold" />
         <TextBlock Name="ResultsM" Grid.Row="2" Grid.Column="0" Foreground="White" Text="MOVES: " FontSize="30" TextAlignment="Right" FontWeight="Bold" />
-        <TextBlock x:Name="Resultst" Grid.Row="1" Grid.Column="1" Foreground="White" Text=" KOKOKO" FontSize="30" TextAlignment="Left" FontWeight="Bold" />
-        <TextBlock x:Name="Resultsm" Grid.Row="2" Grid.Column="1" Foreground="White" Text=" KOKO" FontSize="30" TextAlignment="Left" FontWeight="Bold" />
+        <TextBlock x:Name="Resultst" Grid.Row="1" Grid.Column="1" Foreground="White" Text=" " FontSize="30" TextAlignment="Left" FontWeight="Bold" DataContextChanged="Resultst_DataContextChanged" />
+        <TextBlock x:Name="Resultsm" Grid.Row="2" Grid.Column="1" Foreground="White" Text=" " FontSize="30" TextAlignment="Left" FontWeight="Bold" />
     </Grid>
 </Window>

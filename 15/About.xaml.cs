@@ -13,19 +13,14 @@ using System.Windows.Shapes;
 namespace _15
 {
     /// <summary>
-    /// Interaction logic for WinWindow.xaml
+    /// Interaction logic for About.xaml
     /// </summary>
-    public partial class WinWindow : Window
+    public partial class About : Window
     {
-       // string contT=moves.ToString();
-        public WinWindow()
+        public About()
         {
             InitializeComponent();
         }
 
-        private void Resultst_DataContextChanged(object sender, DependencyPropertyChangedEventArgs e)
-        {
-            //Resultst.Text= cw.To
-        }
     }
 }

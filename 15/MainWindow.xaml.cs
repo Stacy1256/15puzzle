@@ -46,7 +46,7 @@ namespace _15
 
         Game myGame;
         DispatcherTimer dt = new DispatcherTimer();
-        Stopwatch sw = new Stopwatch();
+        public Stopwatch sw = new Stopwatch();
         string currentTime = string.Empty;
         bool currentTime1 = true;
         bool defaultImageFlag = true;
@@ -55,7 +55,7 @@ namespace _15
         private Image[] imageArray = new Image[17];
         
         DateTime StartTime;
-        int moves = 0;
+        public int moves = 0;
         
         public MainWindow()
         {
@@ -97,9 +97,13 @@ namespace _15
                 sw.Stop();
                 WinWindow koko = new WinWindow();
                 koko.Show();
-                MessageBox.Show("You Win!", $"15Puzzle and make {moves} your time: {clocktxtblock.Text} ");
-               //TimeSpan endOfGame = DateTime.Now - StartTime;
-                
+                koko.Resultst.Text = clocktxtblock.Text;
+                koko.Resultsm.Text = moves.ToString();
+                moves = 0;
+                sw.Reset();
+                // MessageBox.Show("You Win!", $"15Puzzle and make {moves} your time: {clocktxtblock.Text} ");
+                //TimeSpan endOfGame = DateTime.Now - StartTime;
+
 
             }
             //MessageBox.Show(nmb.ToString());
@@ -138,6 +142,7 @@ namespace _15
             sw.Start();
             dt.Start();
             ScoreLable.Text = moves.ToString();
+            
         }
 
         private void StartGame()
@@ -146,9 +151,13 @@ namespace _15
             {
                 CutImage(defaultImagePath);
             }
-            //myButton(0).Content = imageArray[0];
             myGame.start();
+
+
+            // розкоментарити мікс!
             myGame.mixTails();
+
+
             RefreshTiles();
 
             ///<summary>Start timer</summary>
@@ -189,39 +198,6 @@ namespace _15
             StartGame();
         }
 
-       
-
-        //private void CutImage(string img)
-        //{
-        //    int count = 0;
-
-        //    BitmapImage src = new BitmapImage();
-        //    src.BeginInit();
-        //    src.UriSource = new Uri(img, UriKind.Relative);
-        //    src.CacheOption = BitmapCacheOption.OnLoad;
-        //    src.EndInit();
-        //    int size=480;
-        //    if (src.PixelWidth < src.PixelHeight)
-        //    {
-        //        size = src.PixelWidth;
-        //    }
-        //    else if (src.PixelWidth >= src.PixelHeight)
-        //    {
-        //        size = src.PixelHeight;
-        //    }
-        //    int sizecrop = size / 4;
-        //    for (int i = 0; i < 4; i++)
-        //    {
-        //        for (int j = 0; j < 4; j++)
-        //        {
-        //            imageArray[count] = new Image();
-        //            imageArray[count].Source = new CroppedBitmap(src, new Int32Rect(j * sizecrop, i * sizecrop, sizecrop, sizecrop));
-        //            myButton(count).Content = imageArray[count++];
-
-        //        }
-        //    }
-        //    defaultImageFlag = false;
-        //}
         private void CutImage(string img)
         {
             int count = 1;
@@ -291,6 +267,7 @@ namespace _15
                 catch (Exception ex)
                 {
                     MessageBox.Show("Error: Could not read file from disk. Original error: " + ex.Message);
+                    CutImage(defaultImagePath);
                 }
             }
             StartGame();
@@ -304,6 +281,8 @@ namespace _15
 
         private void help_Click(object sender, RoutedEventArgs e)
         {
+            HelpWin koko = new HelpWin();
+            koko.Show();
             
         }
 
@@ -326,6 +305,17 @@ namespace _15
             
 
             //elapsedtimeitem.Items.Add(currentTime);
+        }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void about_Click(object sender, RoutedEventArgs e)
+        {
+            About koko = new About();
+            koko.Show();
         }
     }
 }

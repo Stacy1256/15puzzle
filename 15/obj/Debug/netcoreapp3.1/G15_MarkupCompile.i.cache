@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\Lenovo\Desktop\15\15\App.xaml
-22068871655
+4-1938681388
 
-7-1181481705
+9-52259393
 1932029676637
-MainWindow.xaml;WinWindow.xaml;
+About.xaml;HelpWin.xaml;MainWindow.xaml;WinWindow.xaml;
 
-False
+True
 
